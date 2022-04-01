@@ -1,5 +1,12 @@
+
+
+
 # pythondango
 Curso Python Django
+
+[![Updates](https://pyup.io/repos/github/Aniro-Montenegro/pythondango/shield.svg)](https://pyup.io/repos/github/Aniro-Montenegro/pythondango/)
+[![Python 3](https://pyup.io/repos/github/Aniro-Montenegro/pythondango/python-3-shield.svg)](https://pyup.io/repos/github/Aniro-Montenegro/pythondango/)
+
 
 
 ##Instalação de libs com PIP
