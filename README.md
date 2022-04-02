@@ -42,7 +42,16 @@ pip install > requirements-dev.txt
 ````commandline
 pip install -r requirements-dev.txt
 ````
+## Pipenv
 
+````commandline
+pip install pipenv
+````
+
+````commandline
+pipenv install requests
+pipenv install flake8 pytest coverage pytest-cov
+````
 
 ## Pytest
 ````commandline
