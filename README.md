@@ -117,3 +117,7 @@ heroku apps:create projeto-django-aniro
 ````commandline
 git push heroku main:master -f
 ````
+
+````commandline
+python ../manage.py startapp base
+````
