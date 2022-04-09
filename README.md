@@ -131,3 +131,5 @@ pipenv install 'pytest-django'
 ````commandline
 pipenv run pytest
 ````
+## Cobertura de testes
+
