@@ -1,3 +1,9 @@
+
+## https://projeto-django-aniro.herokuapp.com/
+![example workflow](https://github.com/Aniro-Montenegro/pythondango/actions/workflows/test.yml/badge.svg)
+![example workflow](https://github.com/Aniro-Montenegro/pythondango/actions/workflows/django_ci.yml/badge.svg)
+
+
 # pythondango
 Curso Python Django
 
@@ -106,4 +112,8 @@ pipenv install gunicorn
 > Criando app no heroku
 ````commandline
 heroku apps:create projeto-django-aniro
+````
+
+````commandline
+git push heroku main:master -f
 ````
