@@ -42,4 +42,4 @@ jobs:
         pipenv run pytest projeto --cov=projeto
     - name: Pytest Projeto
       run: |
-        pipenv run pytest
+        pipenv run pytest projeto --cov=projeto
