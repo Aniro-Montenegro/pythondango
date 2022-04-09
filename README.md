@@ -121,3 +121,13 @@ git push heroku main:master -f
 ````commandline
 python ../manage.py startapp base
 ````
+
+## Pytest Django
+
+````commandline
+pipenv install 'pytest-django'
+````
+
+````commandline
+pipenv run pytest
+````
