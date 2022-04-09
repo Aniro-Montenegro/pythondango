@@ -9,12 +9,13 @@ charset-normalizer = "==2.0.12"
 idna = "==3.3"
 requests = "==2.27.1"
 urllib3 = "==1.26.9"
-flake8 = "*"
 pytest = "*"
 coverage = "*"
 pytest-cov = "*"
+django = "*"
 
 [dev-packages]
+flake8 = "*"
 
 [requires]
 python_version = "3.6"

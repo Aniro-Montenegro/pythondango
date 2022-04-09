@@ -76,3 +76,15 @@ pip freeze |grep cov
 ````commandline
 pytest projeto --cov=projeto
 ````
+
+
+## Django
+
+````commandline
+pipenv install django
+````
+> Instalando Flake8 em ambiente de desenvonvimento
+````commandline
+pipenv install -d flake8
+````
+
