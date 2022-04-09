@@ -87,4 +87,23 @@ pipenv install django
 ````commandline
 pipenv install -d flake8
 ````
+> Criando o projeto django
+````commandline
+django-admin startproject projeto
+````
+> Rodando o projeto
+````commandline
+python manage.py runserver
+````
 
+## Heroku
+
+> Instalando gunicor
+````commandline
+pipenv install gunicorn
+````
+
+> Criando app no heroku
+````commandline
+heroku apps:create projeto-django-aniro
+````
