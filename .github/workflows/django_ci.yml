@@ -40,3 +40,6 @@ jobs:
         CODECOV_TOKEN: "7620f2d8-9c47-4bf4-b971-d1167f5d43a9"
       run: |
         pipenv run pytest projeto --cov=projeto
+    - name: Pytest Projeto
+      run: |
+        pipenv run pytest
