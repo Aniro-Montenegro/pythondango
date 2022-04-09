@@ -13,6 +13,7 @@ pytest = "*"
 coverage = "*"
 pytest-cov = "*"
 django = "*"
+gunicorn = "*"
 
 [dev-packages]
 flake8 = "*"
