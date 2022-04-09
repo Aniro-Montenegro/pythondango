@@ -131,5 +131,12 @@ pipenv install 'pytest-django'
 ````commandline
 pipenv run pytest
 ````
-## Cobertura de testes
+## Decouple
+````commandline
+pipenv install 'python-decouple'
+````
+
+````commandline
+heroku config:set DEBUG=False
+````
 
