@@ -146,4 +146,8 @@ heroku config:set DEBUG=False
 heroku config:set SECRET_KEY  "chave secreta"
 ````
 
-## Banco de dados
+## Arquivos estaticos
+
+````commandline
+python manage.py collectstatic
+````
