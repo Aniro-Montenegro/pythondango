@@ -143,7 +143,7 @@ heroku config:set DEBUG=False
 ##CHAVE SECRETA 
 
 ````commandline
-heroku config:set SECRET_KEY = "chave secreta"
+heroku config:set SECRET_KEY  "chave secreta"
 ````
 
 ## Banco de dados

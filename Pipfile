@@ -15,8 +15,8 @@ pytest-cov = "*"
 django = "*"
 gunicorn = "*"
 pytest-django = "*"
-python-decouple = "*"
 dj-database-url = "*"
+python-decouple = "*"
 
 [dev-packages]
 flake8 = "*"
