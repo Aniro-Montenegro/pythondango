@@ -13,10 +13,10 @@ pytest = "*"
 coverage = "*"
 pytest-cov = "*"
 django = "*"
-gunicorn = "*"
 pytest-django = "*"
 dj-database-url = "*"
 python-decouple = "*"
+gunicorn = "*"
 
 [dev-packages]
 flake8 = "*"
