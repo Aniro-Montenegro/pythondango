@@ -18,6 +18,7 @@ dj-database-url = "*"
 python-decouple = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
+django-debug-toolbar = "*"
 
 [dev-packages]
 flake8 = "*"
