@@ -169,3 +169,8 @@ mng createsuperuser
 ````commandline
 
 ````
+
+## Heroku Migrations
+````commandline
+heroku run python manage.py createsuperuser
+````
