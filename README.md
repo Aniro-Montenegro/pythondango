@@ -167,5 +167,4 @@ mng migrate
 ````
 mng createsuperuser
 ````commandline
-
 ````
