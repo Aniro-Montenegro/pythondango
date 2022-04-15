@@ -151,3 +151,21 @@ heroku config:set SECRET_KEY  "chave secreta"
 ````commandline
 python manage.py collectstatic
 ````
+
+## Criar migrações para o banco de dados
+````commandline
+mng makemigrations
+````
+
+````commandline
+mng makemigrations base
+````
+
+##Criando Tabelas
+````commandline
+mng migrate
+````
+mng createsuperuser
+````commandline
+
+````
