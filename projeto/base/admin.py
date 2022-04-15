@@ -6,7 +6,6 @@ from django.contrib.auth import update_session_auth_hash
 from django.contrib.auth.forms import (
     AdminPasswordChangeForm, UserChangeForm, UserCreationForm,
 )
-
 from django.core.exceptions import PermissionDenied
 from django.db import router, transaction
 from django.http import Http404, HttpResponseRedirect
@@ -31,7 +30,8 @@ class UserAdmin(admin.ModelAdmin):
     fieldsets = (
         (None, {'fields': ('first_name', 'email', 'password')}),
         (_('Permissions'), {
-            'fields': ('is_active', 'is_staff', 'is_superuser', 'groups', 'user_permissions'),
+            'fields': ('is_active', 'is_staff', 'is_superuser',
+                       'groups', 'user_permissions')
         }),
         (_('Important dates'), {'fields': ('last_login', 'date_joined')}),
     )
@@ -113,9 +113,9 @@ class UserAdmin(admin.ModelAdmin):
 
     @sensitive_post_parameters_m
     def user_change_password(self, request, id, form_url=''):
-        user = self.get_object(request, unquote(id))
-        if not self.has_change_permission(request, user):
+        if not self.has_change_permission(request):
             raise PermissionDenied
+        user = self.get_object(request, unquote(id))
         if user is None:
             raise Http404(_('%(name)s object with primary key %(key)r does not exist.') % {
                 'name': self.model._meta.verbose_name,
